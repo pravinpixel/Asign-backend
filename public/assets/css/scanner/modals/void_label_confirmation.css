@@ -1,0 +1,25 @@
+.scanner-app-modal .modal-dialog {
+    max-width: 475px !important;
+    max-height: 415px !important;
+}
+#void_label_confirm_modal #scanner_form {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+#void_label_confirm_modal .modal-footer{
+    border: none;
+}
+
+#void_label_confirm_modal .modal-footer{
+    justify-content: flex-end !important;
+    gap: 16px!important;
+}
+#void_label_confirm_modal p {
+    text-align: justify !important;
+    font-family: "neue-montreal-regular";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #1D1D1D;
+}

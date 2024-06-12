@@ -1,0 +1,49 @@
+.scanning-steps .scanning-header ,.click-next {
+    font-family: "neue-montreal-medium";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.4;
+    color: #1D1D1D;
+    padding-bottom:16px;
+}
+.scanning-steps .step-card {
+    display: flex;
+    flex-direction: column;
+    padding: 16px 0 16px 0;
+}
+.scanning-steps p {
+    margin-bottom: 0 !important;
+} 
+.scanning-steps .step-card  p {
+    margin-bottom: 0 !important;
+}
+.scanning-steps .step-card  .mb-8 {
+    margin-bottom: 8px !important;
+    font-family: "neue-montreal-medium";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #696969;
+}
+.scanning-steps .step-card .span_18 {
+    font-family: "neue-montreal-regular";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #696969;
+}
+.span_18_black {
+    font-family: "neue-montreal-medium";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #1D1D1D;
+}
+.scanning-steps .click-next {
+    margin:32px 0 32px 0 !important;
+}
+.icon-para {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}

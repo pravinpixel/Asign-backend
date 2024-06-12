@@ -1,0 +1,52 @@
+label {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #333;
+    margin-right: 10px;
+}
+
+input[type="date"] {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #333;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+input[type="date"]:focus {
+    border-color: #66afe9;
+    box-shadow: 0 0 8px rgba(102, 175, 233, 0.6);
+    outline: none;
+}
+body {
+    margin: 100px;
+    /* background-color: black; */
+    background-image: url(https://media2.giphy.com/media/FlodpfQUBSp20/giphy.gif?cid=6c09b952dlytuiz8ygvhm6qbq0lzeujp8ocbplomxpjlwr8w&ep=v1_gifs_search&rid=giphy.gif&ct=g);
+}
+
+.download-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.download-button:hover {
+    background-color: #45a049;
+}
+
+.download-button:active {
+    background-color: #3e8e41;
+    transform: scale(0.98);
+}
+h1{
+    color: white;
+    margin-top: 10%;
+}

@@ -1,0 +1,48 @@
+<?php
+return [
+'days'=> [
+    [
+        "id"=>1,
+        "day"=>"sunday",
+        "from_time"=>"",
+        "to_time"=>""
+    ],
+     [
+        "id"=>2,
+        "day"=>"monday",
+        "from_time"=>"",
+        "to_time"=>""
+    ],
+     [
+        "id"=>3,
+        "day"=>"tuesday",
+        "from_time"=>"",
+        "to_time"=>""
+    ],
+     [
+        "id"=>4,
+        "day"=>"wednesday",
+        "from_time"=>"",
+        "to_time"=>""
+    ],
+     [
+        "id"=>5,
+        "day"=>"thursday",
+        "from_time"=>"",
+        "to_time"=>""
+    ],
+     [
+        "id"=>6,
+        "day"=>"friday",
+        "from_time"=>"",
+        "to_time"=>""
+    ],
+    [
+        "id"=>7,
+        "day"=>"saturday",
+        "from_time"=>"",
+        "to_time"=>""
+    ]
+    
+]
+];

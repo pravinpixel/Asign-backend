@@ -1,0 +1,158 @@
+.select2-container--material {
+    display: flex;
+    min-height: 36px;
+    height: auto;
+    /*width: 100% !important;*/
+    transition: all 0.3s ease-in-out;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.select2-container--material:focus,
+.select2-container--material:hover,
+.select2-container--material.select2-container--focus {
+    background-color: #E8E8E8;
+    border: 1px solid #CFCFCF;
+    box-shadow: 0px 0px 8px 4px rgba(181, 181, 181, 0.15);
+}
+
+.select2-container--material .dropdown-wrapper {
+    margin-left: auto;
+    position: relative;
+}
+
+.select2-container--material .dropdown-wrapper::before {
+    /*position: absolute;
+    content: ">";
+    right: 0;*/
+}
+
+.select2-container--material span.selection {
+    display: block;
+    width: 95%;
+    height: 100%;
+}
+
+.select2-container--material span.selection .select2-selection {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.select2-container--material span.selection .select2-selection .select2-search {
+    padding-left: 10px;
+    /*    width: 100%;*/
+}
+
+.select2-container--material span.selection .select2-selection .select2-search .select2-search__field {
+    display: block;
+    width: 100%;
+    height: 38px;
+    background-color: transparent !important;
+    margin: 0px;
+    padding: 0px;
+    outline: 0px;
+    box-shadow: none;
+    line-height: 38px;
+    word-break: break-all;
+    color: #1D1D1D !important;
+}
+
+.select2-container--material span.selection button.select2-selection__clear {
+    display: none;
+    width: 0px;
+}
+
+.select2-container--material span.selection .select2-selection__choice {
+    background-color: #FF9EB7;
+    border: 1px solid #FF9EB7;
+    border-radius: 12px;
+    box-sizing: border-box;
+    display: inline-block;
+    margin-left: 5px;
+    margin-top: 5px;
+    padding: 0px 10px;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    vertical-align: bottom;
+    white-space: nowrap;
+}
+
+span.pinkish .select2-selection__choice {
+    background-color: #FF9EB7 !important;
+    border: 1px solid #FF9EB7 !important;
+    color: #000;
+}
+
+span.violets .select2-selection__choice {
+    background-color: #CDB0FF !important;
+    border: 1px solid #CDB0FF !important;
+    color: #000;
+}
+
+span.blueish .select2-selection__choice {
+    background-color: #77D1F3 !important;
+    border: 1px solid #77D1F3 !important;
+    color: #000;
+}
+
+span.grey .select2-selection__choice {
+    height: 24px !important;
+    display: inline-flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    border-radius: 24px !important;
+    background-color: #EEEEEA !important;
+    border: 1px solid #EEEEEA !important;
+    color: #000;
+    gap: 5px !important;
+}
+
+span.grey .select2-container--default .select2-selection--multiple .select2-selection__choice__display {
+    padding-left: 4px !important;
+    padding-right: 8px !important;
+}
+
+span.grey .select2-container--default .select2-selection--multiple .select2-selection__choice__remove {
+    height: 24px !important;
+    border-right: 1px solid #d8d8d8 !important;
+    padding: 0 6px !important;
+}
+
+.select2-container--material span.selection .select2-selection__choice>span {
+    color: #333333;
+    font-family: "neue-montreal-medium";
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.select2-container--material span.selection .select2-selection__choice>.select2-selection__choice__remove {
+    background-color: transparent;
+    border: 0;
+    margin: 0;
+    display: inline-block;
+    outline: none;
+    box-shadow: none;
+    padding-right: 5px;
+    text-align: center;
+}
+
+.select2-dropdown {
+    border-radius: 4px;
+    border: 1px solid #CFCFCF;
+    background: #FFF;
+    box-shadow: 0px 0px 8px 4px rgba(181, 181, 181, 0.15);
+}
+
+.select2-dropdown ul li {
+    color: #1D1D1D;
+    font-family: "neue-montreal-regular";
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}

@@ -1,0 +1,25 @@
+.heading_18_black {
+    font-family: "neue-montreal-medium";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #1D1D1D;
+}
+
+.column-gap {
+    margin-bottom: 32px !important;
+}
+.row-margin {
+    margin-top: 16px !important;
+}
+.drop-zone{
+    max-height: 200px !important;
+    margin-top: 16px !important;
+}
+#envelope_code,#label_code {
+    font-family: "neue-montreal-medium";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #B5B5B5;
+}

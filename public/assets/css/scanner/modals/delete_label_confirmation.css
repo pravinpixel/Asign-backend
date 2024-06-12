@@ -1,0 +1,42 @@
+#delete_label_confirm_modal.modal-dialog {
+    max-width: 361px !important;
+    max-height: 207px !important;
+}
+
+#delete_label_confirm_modal .redes-checkbox .form-check-input[type=checkbox] {
+    width: 20px;
+    height: 20px;
+    box-shadow: unset;
+    border: 2px solid #CFCFCF;
+    cursor: pointer;
+    padding-right: inherit;
+    padding-bottom: inherit;
+}
+
+#delete_label_confirm_modal .form-check-input[type=checkbox] {
+    border-radius: 0.25em !important;
+}
+
+#delete_label_confirm_modal .form-check-input:checked {
+    border: 0 !important;
+    background-color: white !important;
+}
+
+#delete_label_confirm_modal .modal-header,
+#delete_label_confirm_modal .modal-footer {
+    border: none;
+}
+
+#delete_label_confirm_modal .modal-footer {
+    justify-content: flex-end !important;
+    gap: 16px !important;
+}
+
+#delete_label_confirm_modal p {
+    text-align: justify !important;
+    font-family: "neue-montreal-regular";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #1D1D1D;
+}
